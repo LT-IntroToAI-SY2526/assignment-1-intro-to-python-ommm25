@@ -20,7 +20,8 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-[Paste the prompt you used to generate your problem set here]
+[I am learnin python basics in high school programming class. I have a decent amount of experience with java. Can you create 5 practice problems
+that test my soutions with different inputs, and include comments explaining your approach to the answer.]
 
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
@@ -32,17 +33,14 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 
 """
 PROBLEM 1: [Problem Title/Description]
-[Copy the complete problem description from your AI assistant]
+Write a function that takes an integer as input and returns "Even" if the number is even and "Odd" if the number is odd.
 
-Example:
-Problem: Write a function called 'is_even' that takes an integer and returns 
-True if the number is even, False if it's odd.
-
-Example inputs/outputs:
-- is_even(4) should return True
-- is_even(7) should return False
-"""
-
+print(even_or_odd(4)) should be even
+print(even_or_odd(3)) Should be odd
+print(even_or_odd(5)) Should be odd
+print(even_or_odd(8)) Should be even
+print(even_or_odd(20)) Should be even 
+print(even_or_odd(21)) Should be odd
 
 
 
