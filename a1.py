@@ -33,7 +33,7 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 
 """
 PROBLEM 1: [Problem Title/Description]
-Write a function that takes an integer as input and returns "Even" if the number is even and "Odd" if the number is odd.
+Write a function multiply_evens(numbers) that multiplies all even numbers in a list. If there are no even numbers, return 1.
 
 print(even_or_odd(4)) should be even
 print(even_or_odd(3)) Should be odd
@@ -57,7 +57,11 @@ print(even_or_odd(21)) Should be odd
 
 
 """
-Test all your solutions with different inputs
+def is_even(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
 
 Add asserts if you feel comfortable
 
