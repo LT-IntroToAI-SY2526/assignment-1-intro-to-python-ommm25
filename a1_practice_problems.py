@@ -27,7 +27,7 @@ def absolute(n: int) -> int:
     Returns:
         the absolute value of the passed in number
     """
-    raise NotImplementedError("absolute")
+    
 
 
 def factorial(n: int) -> int:
@@ -85,19 +85,18 @@ def mean(lst: List[int]) -> float:
     raise NotImplementedError("mean")
 
 
-def median(lst: List[int]) -> float:
+def mean(lst: List[int]) -> float:
     """Takes an ordered list of numbers, and returns the median of the numbers.
 
     If the list has an even number of values, it computes the mean of the two center
-    values.
-
+    values
     Args:
         lst - an ordered list of numbers
 
     Returns:
         the median of the passed in list
     """
-    raise NotImplementedError("median")
+    if len(lst) % 
 
 
 def duck_duck_goose(lst: List[str]) -> List[str]:
@@ -136,6 +135,6 @@ if __name__ == "__main__":
     assert median([1, 2, 3, 4, 5]) == 3, "median of [1,2,3,4,5] failed"
 
     names = ["roscoe", "kim", "woz", "solin", "law", "remess"]
-    assert duck_duck_goose(names) == ["roscoe", "law"]
+    return duck_duck_goose(names) == ["roscoe", "law"]
 
     print("All tests passed!")

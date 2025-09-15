@@ -35,12 +35,11 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 PROBLEM 1: [Problem Title/Description]
 Write a function multiply_evens(numbers) that multiplies all even numbers in a list. If there are no even numbers, return 1.
 
-print(even_or_odd(4)) should be even
-print(even_or_odd(3)) Should be odd
-print(even_or_odd(5)) Should be odd
-print(even_or_odd(8)) Should be even
-print(even_or_odd(20)) Should be even 
-print(even_or_odd(21)) Should be odd
+print(multiply_evens([2, 3, 4]))      8
+print(multiply_evens([1, 3, 5]))      1 (Due to no evens)
+print(multiply_evens([]))            1( due to no evens)
+print(multiply_evens([10, 20]))      200
+print(multiply_evens([7]))            1(due to no evens)
 
 
 
@@ -57,22 +56,23 @@ print(even_or_odd(21)) Should be odd
 
 
 """
-def is_even(num):
-    if num % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
-
-Add asserts if you feel comfortable
-
+def longest_word(words):
+    # Assume first word is the longest initially
+    longest = ""
+    
+    for word in words:
+        if len(word) > len(longest):
+            longest = word
+    
+    return longest
 Example:
 print("Testing Problem 1:")
 print(f"is_even(4): {is_even(4)}")  # Should print True
 print(f"is_even(7): {is_even(7)}")  # Should print False
 """
 
-print("Testing Problem 1:")
-# Add your tests here
+print(longest_word(["apple", "banana", "kiwi"]))  
+# Should print "banana"
 
 print("\nTesting Problem 2:")
 # Add your tests here
