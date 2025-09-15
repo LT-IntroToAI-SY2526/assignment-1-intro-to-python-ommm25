@@ -1,5 +1,5 @@
 # Assignment 1: AI-Generated Python Problems
-# Name: [Your Name Here]
+# Name: Omar Arellano 
 
 """
 AI-Generated Problem Set
@@ -20,8 +20,8 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-[I am learnin python basics in high school programming class. I have a decent amount of experience with java. Can you create 5 practice problems
-that test my soutions with different inputs, and include comments explaining your approach to the answer.]
+"I'm learning Python basics in a high school programming class. I have some experience with [mention your previous programming language if any, or say 'I'm new to programming']. Can you create 5-7 practice problems that cover:
+Variables and basic data types, Conditionals (if/elif/else), Loops (for and while), Functions, Basic list operations, and Make them progressively more challenging. Make sure each problem has clear instructions and example inputs/outputs."
 
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
@@ -68,17 +68,6 @@ def multiply_evens(numbers):
     
     # If no even numbers found, return 1 (default)
     return result if found_even else 1
-Example:
-print("Testing Problem 1:")
-print(f"is_even(4): {is_even(4)}")  # Should print True
-print(f"is_even(7): {is_even(7)}")  # Should print False
-"""
-
-print(longest_word(["apple", "banana", "kiwi"]))  
-# Should print "banana"
-
-print(longest_word(["one", "two", "three"]))    
-Should print "three" 
 
 print("\nTesting Problem 3:")
 # Add your tests here
