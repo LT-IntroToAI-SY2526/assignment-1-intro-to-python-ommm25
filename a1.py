@@ -56,15 +56,18 @@ print(multiply_evens([7]))            1(due to no evens)
 
 
 """
-def longest_word(words):
-    # Assume first word is the longest initially
-    longest = ""
+def multiply_evens(numbers):
+    # Start with 1 because we're multiplying
+    result = 1
+    found_even = False
     
-    for word in words:
-        if len(word) > len(longest):
-            longest = word
+    for num in numbers:
+        if num % 2 == 0:
+            result *= num
+            found_even = True
     
-    return longest
+    # If no even numbers found, return 1 (default)
+    return result if found_even else 1
 Example:
 print("Testing Problem 1:")
 print(f"is_even(4): {is_even(4)}")  # Should print True
@@ -74,8 +77,8 @@ print(f"is_even(7): {is_even(7)}")  # Should print False
 print(longest_word(["apple", "banana", "kiwi"]))  
 # Should print "banana"
 
-print("\nTesting Problem 2:")
-# Add your tests here
+print(longest_word(["one", "two", "three"]))    
+Should print "three" 
 
 print("\nTesting Problem 3:")
 # Add your tests here
