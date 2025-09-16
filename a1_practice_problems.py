@@ -18,6 +18,9 @@ from typing import List, TypeVar
 
 
 def absolute(n: int) -> int:
+    if n < 0:
+        return -1*n
+    return n
     """Gives the absolute value of the passed in number. Cannot use the built in
     function `abs`.
 
@@ -28,8 +31,6 @@ def absolute(n: int) -> int:
         the absolute value of the passed in number
     """
     
-
-
 def factorial(n: int) -> int:
     """Takes a number n, and computes the factorial n! You can assume the passed in
     number will be positive
