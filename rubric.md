@@ -20,12 +20,12 @@ Remember: The goal is to **learn programming** while building **AI collaboration
 | Criteria | Points Possible | Points Earned | Comments |
 |----------|----------------|---------------|----------|
 | **Programming Completion** | | | |
-| a1.py Functions Complete | 3 | | |
-| a1_practice_problems.py Complete | 3 | | |
+| a1.py Functions Complete | 3 | 1 | The first one was completed, but none of the rest |
+| a1_practice_problems.py Complete | 3 | 1 | You had one in there, but I was looking for 5-7 |
 | **Reflection & Learning** | | | |
-| AI Collaboration Process | 2 | | |
-| Learning Reflection Quality | 2 | | |
-| **TOTAL** | **10** | | |
+| AI Collaboration Process | 2 | 0 | |
+| Learning Reflection Quality | 2 | 0 | |
+| **TOTAL** | **10** | 10 | Missing the reflection.  Maybe you didn't push your final changes to github? |
 
 ---
 
